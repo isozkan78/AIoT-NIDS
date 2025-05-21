@@ -11,7 +11,7 @@ namespace Eloquent {
                     int predict(float *x) {
                         uint8_t votes[2] = { 0 };
                         // tree #1
-                        if (x[0] <= 5990.0) {
+                        if (x[0] <= 10477.0) {
                             votes[0] += 1;
                         }
 
@@ -20,7 +20,7 @@ namespace Eloquent {
                         }
 
                         // tree #2
-                        if (x[2] <= 2.5) {
+                        if (x[0] <= 10486.5) {
                             votes[0] += 1;
                         }
 
@@ -29,7 +29,7 @@ namespace Eloquent {
                         }
 
                         // tree #3
-                        if (x[1] <= -52.5) {
+                        if (x[0] <= 10472.5) {
                             votes[0] += 1;
                         }
 
@@ -38,7 +38,7 @@ namespace Eloquent {
                         }
 
                         // tree #4
-                        if (x[0] <= 5490.0) {
+                        if (x[0] <= 10477.0) {
                             votes[0] += 1;
                         }
 
@@ -47,7 +47,7 @@ namespace Eloquent {
                         }
 
                         // tree #5
-                        if (x[2] <= 2.5) {
+                        if (x[0] <= 10482.5) {
                             votes[0] += 1;
                         }
 
@@ -56,7 +56,7 @@ namespace Eloquent {
                         }
 
                         // tree #6
-                        if (x[0] <= 5490.0) {
+                        if (x[0] <= 10472.5) {
                             votes[0] += 1;
                         }
 
@@ -65,7 +65,7 @@ namespace Eloquent {
                         }
 
                         // tree #7
-                        if (x[0] <= 5400.0) {
+                        if (x[0] <= 10477.0) {
                             votes[0] += 1;
                         }
 
@@ -74,7 +74,7 @@ namespace Eloquent {
                         }
 
                         // tree #8
-                        if (x[2] <= 2.5) {
+                        if (x[0] <= 10495.0) {
                             votes[0] += 1;
                         }
 
@@ -83,7 +83,7 @@ namespace Eloquent {
                         }
 
                         // tree #9
-                        if (x[2] <= 2.5) {
+                        if (x[0] <= 10491.0) {
                             votes[0] += 1;
                         }
 
@@ -92,7 +92,7 @@ namespace Eloquent {
                         }
 
                         // tree #10
-                        if (x[1] <= -52.5) {
+                        if (x[0] <= 10491.0) {
                             votes[0] += 1;
                         }
 
